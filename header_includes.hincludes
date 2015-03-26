@@ -1,0 +1,5 @@
+%put includes here
+
+\usepackage[markifdraft,draft={}]{gitinfo2}
+\renewcommand{\gitMark}{ Revision:\gitRels +\gitRoff\ @\ \gitAbbrevHash\ (\gitAuthorDate)}
+\renewcommand{\gitMarkPref}{[DRAFT: DO NOT CIRCULATE]}
